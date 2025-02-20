@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+	<button id="dark-mode-btn">Toggle Dark Mode</button>
+
+        <h1>My To-Do List</h1>
+        <input type="text" id="task-input" placeholder="Add a new task...">
+        <button id="add-task-btn">Add Task</button>
+
+        <div class="filters">
+            <button id="all-tasks">All</button>
+            <button id="pending-tasks">Pending</button>
+            <button id="completed-tasks">Completed</button>
+        </div>
+
+        <div id="task-list"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
